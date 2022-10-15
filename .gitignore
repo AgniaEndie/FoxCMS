@@ -1,0 +1,6 @@
+# Project exclude paths
+/node_modules/
+/templates/assets/chart.js/auto/auto.js
+/templates/assets/chart.js/auto/auto.mjs
+/templates/assets/chart.js/helpers/helpers.js
+/templates/assets/chart.js/helpers/helpers.mjs
