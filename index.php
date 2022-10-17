@@ -4,7 +4,9 @@ session_start();
 include ('vendor/vendor.php');
 //$tplloader = new \tpl\TemplateLoader();
 //echo( $tplloader->sendSimpleTemplate("SimpleTemplate"));
-
+//ini_set('display_errors', '1');
+//ini_set('display_startup_errors', '1');
+//error_reporting(E_ALL);
 $tplLoader = new \tpl\TemplateLoader();
 $authProvider = new \auth\AuthProvider();
 $db = new \database\Database();
